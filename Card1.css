@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+#cont{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+#cont div{
+    width: 30%;
+    overflow: hidden;
+}
+#cont div img{
+    width: 100%;
+}
+#cont div h3{
+    margin: 15px;
+    text-align: center;
+    font-size: 23px;
+    /* color: black; */
+    letter-spacing: 0.5px;
+}
+#cont div h4{
+    text-align: center;
+    /* text-align: left; */
+    /* font-size: 20px; */
+}
+#cont div button{
+    margin: 3%;
+    width: 86%;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    border-radius: 30px;
+    color: black;
+}
+#cont div img:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+#cont div .pr{
+    width: 93%;
+   
+    /* display: flex; */
+    /* justify-content: space-between;*/
+} 
+li{
+    margin: -1.9px;
+    text-align: center;
+    height: 45px;
+    font-size: 16px
+}
+.price{
+    /* padding-bottom: 0px; */
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    margin: -5%;
+}
+#fest{
+    width: 90%;
+    height: 135px; 
+}
+#amzon{
+    width: 91px;
+    margin-left: 45%;
+    padding-top: 6px;
+}
